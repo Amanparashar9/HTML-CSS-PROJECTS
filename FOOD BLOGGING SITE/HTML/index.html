@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>iFood Blogging</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+
+            <div class="logotext">
+                <img src="../logo/kisspng-catering-food-computer-icons-logo-event-management-catering-5abf487cd18447.7546290415224853728582.png" alt="">
+                <h1>DELHI STREET FOOD</h1>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Places
+                </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="chandnichowk.html">Chandani Chowk</a></li>
+                            <li><a class="dropdown-item" href="jamamasjid.html">Jama Masjid</a></li>
+                            <li><a class="dropdown-item" href="karolbagh.html">Karol Bagh</a></li>
+                            <li><a class="dropdown-item" href="krishnanagar.html">Krishna Nagar</a></li>
+                            <li><a class="dropdown-item" href="kamlanagar.html">Kamla Nagar</a></li>
+                            <li><a class="dropdown-item" href="lajpatnagar.html">Lajpat Nagar</a></li>
+                            <li><a class="dropdown-item" href="connaughtplace.html">Connaught Place</a></li>
+                            <li><a class="dropdown-item" href="shahdara.html">Shahdara</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="contactus.html">Something else here</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" id="search" onchange="search_places()" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+
+                </form>
+            </div>
+        </div>
+    </nav>
+    <hr>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="crousel images/unnamed.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>DELHI STREET FOOD</h5>
+                    <p>SOME OF THE BEST FOOD PLACES IN DELHI FOR FOODIES.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="crousel images/2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>DELHI STREET FOOD</h5>
+                    <p>SOME OF THE BEST FOOD PLACES IN DELHI FOR FOODIES.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="crousel images/3.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>DELHI STREET FOOD</h5>
+                    <p>SOME OF THE BEST FOOD PLACES IN DELHI FOR FOODIES.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <hr>
+    <div id="card-container1">
+        <div class="card" style="width: 18rem;">
+            <img src="cards/delhi-most-famous-street-food-of-chandni-chowk-article.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">CHANDANI CHOWK</h5>
+                <p class="card-text"> If you're a foodie and have ever been to Chandni Chowk, there's no chance that you would have missed Gole Hatti. The ever-popular joint whips up the craziest Chole Chawal with palak gravy which actually comes in a kulhad. They are spicy,
+                    super hot, flavourful and amazingly yummy!</p>
+                <a href="chandnichowk.html" class="btn btn-primary">CHANDANI CHOWK</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="cards/Jama-Masjid1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">JAMA MASJID</h5>
+                <p class="card-text"> While talking about the main course meal, non-vegetarians should definitely try butter chicken boneless, Mutton Korma and Mutton Handi and vegetarians should try Kadhai paneer, yellow dal and more along with breads like khameeri Tandoori
+                    Roti. There are options galore; whether you are a non-vegetarian or a vegetarian.</p>
+                <a href="jamamasjid.html" class="btn btn-primary">JAMA MASJID</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="cards/karolbagh-1518333069.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">KAROL BAGH</h5>
+                <p class="card-text">The market is known for its shopping streets like the Ajmal Khan Road and the Gaffar Market (very popular for its electronic goods). The Karol Bagh market is visited by many people who come here to buy clothes, home accessories, home furnishing,
+                    food stuff and jewellery.</p>
+
+                <a href="karolbagh.html" class="btn btn-primary">KAROL Bagh</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="cards/restaurant_115652_Template+New+copy+s861.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">KRISHNA NAGAR</h5>
+                <p class="card-text">Best Street Food Restaurant in Krishna Nagar · Bhola Shankar Kachodi Wale · Yashji Snacks Point · Delhi Dahi Bhalla Corner · Bhatia Sweets · Shree Ganesh Bhaturewala.</p>
+                <a href="krishnanagar.html" class="btn btn-primary">KRISHNA NAGAR</a>
+            </div>
+
+        </div>
+
+    </div>
+    <hr>
+
+
+
+    </div>
+    <div id="card-container2">
+        <div class="card" style="width: 18rem;">
+            <img src="cards/DSA.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">SHAHDARA</h5>
+                <p class="card-text">Sharma Bhature Wala, fondly known as “Afeem Wale Chole Bhature” is one of the oldest Chole Bhature shops in East Delhi. Don’t get skeptical about the word Afeem. It is called so because its taste intoxicates you. The shop is immensely
+                    popular for its delicious Chole Bhature.</p>
+                <a href="shahdara.html" class="btn btn-primary">SHAHDARA</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="cards/1080586-cp-market.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Connaught Place</h5>
+
+                <p class="card-text">15 Best Street Food Places In Connaught Place · Anil Kachori Wale · Bhogal Chole Bhature · Odeon Bhel Puri Bhandar · Atulyam Jain Chawal Wale · Shukla Paan Palace.
+                </p>
+                <a href="connaughtplace.html" class="btn btn-primary">Connaught Place</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="cards/top-20-street-food-in-lajpat-nagar-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">LAJPAT NAGAR</h5>
+                <p class="card-text">Treat Yourself With Delicious Street Food In The Lanes Of Lajpat Nagar · Momos & Chinese Chaat At Dolma Aunty · Ram Ladoo · Chole Bhature · Lassi.
+                </p>
+                <a href="lajpatnagar.html" class="btn btn-primary">LAJPAT NAGAR</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="cards/chole-bhaturree-1.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">KAMLA NAGAR</h5>
+                <p class="card-text">next to the North Campus of Delhi University, Kamla Nagar is a lively market and a popular hang-out for college students. It is famous for popular fashion brands and spicy street food. The roads, spreading out radially from a huge roundabout,
+                    house several showrooms.</p>
+                <a href="kamlanagar.html" class="btn btn-primary">KAMLA NAGAR</a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="para1">
+        <h3> ABOUT DELHI FOOD</h1>
+            <p> &diams; Delhi can just as well be referred to as the city of foodies. We Delhiites can name scores of places where we can find our favourite food in the city and with social platforms like Insta, every swipe of the finger offers something
+                tempting and unique to try. So, we’ve curated a list to help you keep up with all the latest trends. Follow these amazing food bloggers and drool all day long!</p>
+            <p> &diams; A food critic who has also worked as a PR in hotels & restaurants, Sarah Hussain’s Instagram account is definitely going to give y’all not only a foodgasm but also FOMO feels. Her recommendations are genuine and her posts can guide
+                you through the best eateries in Delhi. Check out her profile ASAP!</p>
+            <p> &diams; Paresh is a hardcore foodie and his unceasing love for all things edible truly reflects in the quality of his feed! From crispy samosas to deep dish pizzas with crazy cheese pull, this guy tells us all about the hidden gems in the
+                Capital where you can enjoy both street food and lavish fare. Go follow him, guys, his posts will surely make your mouth water!</p>
+            <p>
+
+                &diams; Delhi Street Food Indian Street Food In Delhi Different people have different feelings about street food. Some people don't like eating out in open, mostly standing and surrounded by other folks. Others have misgivings about cleanliness and hygiene.
+                Valid points but it's also true that flavors and innovation offered by street food vendors are hard to replicate in fancy, expensive restaurants. Street food is cheap and usually very delicious. Most vendors worth their salt have better
+                standards than many branded food joints. You can see the food being prepared and cooking conditions with your own eyes. It’s unlike most established restaurants. In most cases, the cooking recipe is in the vendors family for generations
+                and is zealously guarded just the way MNCs like Coca-Cola, KFC etc. guard their own recipes.
+            </p>
+            <p>
+                &diams; DELHI has a large variety of street food from all over India as well as some from abroad. The list of just Indian street food available here can easily fill a page or two, but some of more popular traditional Indian street food snacks are Gol
+                Gappe, Aaloo Tikki, Chole Bhatoore, Dahi Bhalle, Poori Kachori, Chaat, Pakode, Samosa, Bhel poori and many many more. Momos (dumplings) along with some other Chinese food like Chowmein cooked in a unique Indian style has gained some popularity
+                too. Lets see some of the best places to eat in Delhi:
+            </p>
+    </div>
+    <hr>
+    <footer class="bg-primary text-black text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Footer Content</h5>
+
+                    <p>
+                        DELHI has a large variety of street food from all over India as well as some from abroad. The list of just Indian street food available here can easily fill a page or two, but some of more popular traditional Indian street food snacks are Gol Gappe, Aaloo
+                        Tikki, Chole Bhatoore, Dahi Bhalle, Poori Kachori, Chaat, Pakode, Samosa, Bhel poori and many many more. Momos (dumplings) along with some other Chinese food like Chowmein cooked in a unique Indian style has gained some popularity
+                        too. Lets see some of the best places to eat in Delhi:
+                    </p>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Links</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="index.html" class="text-white">HOME</a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="text-white">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="places.html" class="text-white">PLACES</a>
+                        </li>
+                        <li>
+                            <a href="contactus.html" class="text-white">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="chandnichowk.html" class="text-white">Chandni Chowk</a>
+                        </li>
+                        <li>
+                            <a href="jamamasjid.html" class="text-white">Jama Masjid</a>
+                        </li>
+                        <li>
+                            <a href="karolbagh.html" class="text-white">Karol Bagh</a>
+                        </li>
+                        <li>
+                            <a href="krishnanagar.html" class="text-white">Krishna Nagar</a>
+                        </li>
+                        <li>
+                            <a href="kamlanagar.html" class="text-white">Kamla Nagar</a>
+                        </li>
+                        <li>
+                            <a href="lajpatnagar.html" class="text-white">Lajpat Nagar</a>
+                        </li>
+                        <li>
+                            <a href="connaughtplace.html" class="text-white">Connaught Place</a>
+                        </li>
+                        <li>
+                            <a href="shahdara.html" class="text-white">SHAHDARA</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white">Delhi Street Food</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+    <script src="/places.js"></script>
+</body>
+
+</html>
