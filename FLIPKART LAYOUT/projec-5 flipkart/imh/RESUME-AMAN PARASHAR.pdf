@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> RESUME-AMAN PARASHAR </title>
+    <link rel="stylesheet" href="RESUME-AMAN%20PARASHAR_files/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="RESUME-AMAN%20PARASHAR_files/css2.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <section id="container">
+        <div class="left">
+            <h1>
+                AMAN PARASHAR
+            </h1>
+            <p>
+                I am a highly competent IT professional with a proven 
+track record in designing websites, networking and managing databases. I
+ have strong technical skills as well as excellent interpersonal skills,
+ enabling me to interact with a wide range of clients.
+                I am eager to be challenged in order to grow and further
+ improve my IT skills. My greatest passion is in life is using my 
+technical know-how to benefit other people and organisations.
+            </p>
+
+        </div>
+        <div class="right">
+            <img src="RESUME-AMAN%20PARASHAR_files/img1.jpg" alt="">
+
+        </div>
+    </section>
+    <section id="cbar">
+        <h1> D.O.B- 25/12/2000</h1>
+        <h1>
+            GMAIL- amanbca2ndyear@gmail.com
+
+        </h1>
+        <h1>
+            CONTACT- 8700110486
+
+        </h1>
+        <h1>
+            ADDRESS-K-104,GALI NO-1A VIJAY PARK, DELHI-53
+
+        </h1>
+
+    </section>
+    <section id="ebar">
+        <h1>EDUCATION</h1>
+        <h2>SKILLS</h2>
+    </section>
+    <section id="esdetail">
+        <div class="edetail">
+            <h1> &gt; 2022-(BCA) BACHELOR IN COMPUTER APPLICATIO3
+            </h1>
+            <h1> &gt; BCA FROM INSTITUTE OF MANAGEMENT EDUCATION</h1>
+            <h1> &gt; 2018- 12(C.B.S.E) CENTERAL BOARD OF SECONDRY EDUCATION</h1>
+            <h1> &gt; 2016- 10(C.B.S.E) CENTERAL BOARD OF SECONDRY EDUCATION</h1>
+            <h1> &gt; 10,12 FROM ST.MARKS SR SEC PUBLIC SCHOOL</h1>
+        </div>
+        <div class="sdetail">
+            <h1> &gt; TECHNICAL SKILLS</h1>
+            <h1> &gt; MS-OFFICE</h1>
+            <h1> &gt; C/C++</h1>
+            <h1> &gt; HTML</h1>
+            <h1> &gt; CSS</h1>
+            <h1> &gt; JAVA SCRIPT</h1>
+            <h1> &gt; NODE.JS</h1>
+            <h1> &gt; BOOTSTRAP</h1>
+            <h1> &gt; FRONT-END</h1>
+            <h1> &gt; BACK-END</h1>
+            <h1> &gt; COMPUTER SKILLS</h1>
+        </div>
+    </section>
+    <section id="pabar">
+        <h1>PERSONAL DETAIL</h1>
+        <h2>ACHIVEMENTS</h2>
+    </section>
+    <section id="padetail">
+        <div class="pdetail">
+            <h1> &gt; FATHER'S NAME - JAIBEER PARASHAR
+            </h1>
+            <h1> &gt; MOTHER'S NAME- MANJU PARASHAR</h1>
+            <h1> &gt; SIBLINGS - 1 ELDER SISTER</h1>
+        </div>
+        <div class="adetail">
+            <h1> &gt; FIRST PRICE IN SPEECH COMPETITON IN SCHOOL</h1>
+            <h1> &gt; R.S.S SCHOLARSHIP HOLDER AT IME COLLEGE</h1>
+            <h1> &gt; MEMBER OF PROCTORIAL BOARD AT IME COLLEGE</h1>
+            <h1> &gt; CERTIFICATION OF DOGE BALL</h1>
+            <h1> &gt; CLASS REPRESENTATIVE IN IME</h1>
+
+        </div>
+    </section>
+    <section id="lsbar">
+        <h1>LANGUAGES</h1>
+        <h2>INTEREST</h2>
+    </section>
+    <section id="lidetail">
+        <div class="ldetail">
+            <h1> &gt; ENGLISH</h1>
+            <h1> &gt; HINDI</h1>
+
+        </div>
+        <div class="idetail">
+            <h1> &gt; CURIOUS AND COLLABORATIVE</h1>
+            <h1> &gt; GOOD INTERPERSONAL SKILLS</h1>
+            <h1> &gt; COURAGE TO ACCEPT CHALLANGES</h1>
+            <h1> &gt; TRAVELLING</h1>
+            <h1> &gt; SWIMMING</h1>
+
+
+        </div>
+    </section>
+
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

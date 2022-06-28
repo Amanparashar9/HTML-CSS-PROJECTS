@@ -1,0 +1,627 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* NAVBAR */
+
+#navbar {
+    display: flex;
+    position: fixed;
+    background-color: rgb(36, 26, 180);
+    color: white;
+    height: 53px;
+    width: 100%;
+}
+
+.left h1 {
+    display: block;
+    margin-left: 180px;
+}
+
+.plus {
+    display: flex;
+}
+
+.plus h2 {
+    margin-left: 186px;
+    font-size: 13px;
+}
+
+.plus h3 {
+    margin-left: 4px;
+    font-size: 13px;
+    color: yellow;
+}
+
+.plus img {
+    height: 12px;
+    margin-left: 4px;
+}
+
+.mid input {
+    width: 520px;
+    height: 35px;
+    margin-left: 33px;
+    margin-top: 4px;
+    padding-left: 25px;
+}
+
+.but {
+    height: 35px;
+    position: absolute;
+    padding: 7px;
+    margin-top: 6px;
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+.right {
+    display: flex;
+}
+
+.right button {
+    margin-left: 90px;
+    width: 91px;
+    margin-top: 10px;
+    height: 32px;
+    font-size: 22px;
+}
+
+.right button:hover {
+    color: black;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.right h1 {
+    margin-left: 48px;
+    margin-top: 12px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.right h3 {
+    margin-top: 17px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 4px;
+}
+
+.right img {
+    filter: invert(100%);
+    height: 24px;
+    width: 26px;
+    margin-left: 43px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.right h2 {
+    margin-left: 14px;
+    margin-top: 11px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+/* ITEM BAR */
+
+#items {
+    height: 162px;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4px;
+}
+
+.logo img {
+    margin-top: 60px;
+    height: 64px;
+    width: 64px;
+    cursor: pointer;
+}
+
+.heading {
+    display: flex;
+}
+
+.heading h1 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 88px;
+}
+
+.heading h1:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+
+/* SLIDER */
+
+.carousel-cell {
+    width: 66%;
+}
+
+.carousel-cell img {
+    height: 200px;
+    width: 100%;
+}
+
+.carousel-cell:before {
+    display: block;
+}
+
+.dealbar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dealbar h1 {
+    margin-left: 12px;
+    font-size: 30px;
+}
+
+#deals {
+    height: 300px;
+    margin-top: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dealbar button {
+    background-color: blue;
+    margin-right: 12px;
+    width: 81px;
+    border: 1px;
+}
+
+.dealbar button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.logo2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo2 img {
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.heading2 {
+    display: flex;
+}
+
+.heading2 p {
+    padding-left: 120px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 29px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+
+.heading3 {
+    display: flex;
+}
+
+.heading3 p {
+    padding-left: 80px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 29px;
+    margin-top: 11px;
+    cursor: pointer;
+    color: yellowgreen;
+}
+
+.heading4 {
+    display: flex;
+}
+
+.heading4 p {
+    padding-left: 96px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 29px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+
+.dealbar2 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dealbar2 h1 {
+    margin-left: 12px;
+    font-size: 30px;
+}
+
+#deals2 {
+    height: 300px;
+    margin-top: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dealbar2 button {
+    background-color: blue;
+    margin-right: 12px;
+    width: 81px;
+    border: 1px;
+}
+
+.dealbar2 button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.logo3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo3 img {
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.heading5 {
+    display: flex;
+}
+
+.heading5 p {
+    padding-left: 120px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 29px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+
+.heading6 {
+    display: flex;
+}
+
+.heading6 p {
+    padding-left: 80px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 29px;
+    margin-top: 11px;
+    cursor: pointer;
+    color: yellowgreen;
+}
+
+.heading7 {
+    display: flex;
+}
+
+.heading7 p {
+    padding-left: 96px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 29px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+
+.dealbar3 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dealbar3 h1 {
+    margin-left: 12px;
+    font-size: 30px;
+}
+
+#deals3 {
+    height: 300px;
+    margin-top: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dealbar3 button {
+    background-color: blue;
+    margin-right: 12px;
+    width: 81px;
+    border: 1px;
+}
+
+.dealbar3 button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.logo4 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo4 img {
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.heading8 {
+    display: flex;
+}
+
+.heading8 p {
+    padding-left: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 87px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+
+.heading9 {
+    display: flex;
+}
+
+.heading9 p {
+    padding-left: 80px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 29px;
+    margin-top: 11px;
+    cursor: pointer;
+    color: yellowgreen;
+}
+
+.heading10 {
+    display: flex;
+}
+
+.heading10 p {
+    padding-left: 96px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 29px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+
+#container {
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+#container h1 {
+    margin-bottom: 25px;
+    padding-top: 35px;
+    margin-left: 12px;
+    color: gray;
+}
+
+#container p {
+    color: gray;
+    margin-left: 12px;
+}
+
+#container2 {
+    height: 600px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.class h1 {
+    margin-left: 12px;
+    padding-top: 35px;
+    color: gray;
+}
+
+.class p {
+    margin-left: 12px;
+    color: gray;
+}
+
+.class2 h1 {
+    margin-left: 12px;
+    padding-top: 35px;
+    color: gray;
+}
+
+.class2 p {
+    margin-left: 12px;
+    color: gray;
+}
+
+.class3 h1 {
+    margin-left: 12px;
+    padding-top: 35px;
+    color: gray;
+}
+
+.class3 p {
+    margin-left: 12px;
+    color: gray;
+}
+
+#f {
+    background-color: #212121;
+    color: white;
+    height: 290px;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    color: grey;
+}
+
+.row h1 {
+    font-size: 12px;
+    margin-top: 50px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+#id {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column h1 {
+    margin-bottom: 16px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 132px;
+}
+
+.column h1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.c2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.c2 h1 {
+    margin-left: 90px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.c2 h1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.c3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.c3 h1 {
+    margin-left: 65px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.c3 h1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.c4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.c4 h1 {
+    margin-left: 103px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.c4 h1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.c4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.c5 p {
+    position: absolute;
+    margin-left: 148px;
+    font-weight: 400;
+    font-size: 12px;
+    margin-right: 353px;
+}
+
+.c6 p {
+    position: absolute;
+    margin-left: 337px;
+    font-weight: 400;
+    font-size: 12px;
+    margin-right: 128px;
+}
+
+.c6 h1 {
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 336px;
+    margin-top: 90px;
+}
+
+.c6 h2 {
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 391px;
+    margin-top: -14px;
+    color: rgb(36, 26, 180);
+}
+
+.c6 h2:hover {
+    cursor: pointer;
+}
+
+#foot {
+    display: flex;
+    background-color: #212121;
+    color: white;
+    height: 70px;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 1px;
+}
+
+.f1 {
+    margin-top: 30px;
+}
+
+.f1 h1 {
+    font-size: 14px;
+    margin-left: 29px;
+    margin-top: -18px;
+    margin-right: -9px;
+}
